@@ -14,14 +14,17 @@ function Counter({start}) {
         </div>
   
         <button className='bg-violet-900 text-white' 
-          onClick={() => setCount(count + 1)
+          onClick={() => {
+            setCount(count + 1)
+          } 
             
           }
         >
           press me
         </button>
   
-  
+        
+
       </> );
 }
 

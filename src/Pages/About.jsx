@@ -1,8 +1,10 @@
+import Posts from "../Components/Posts";
+
 function About() {
     return ( 
-        <div>
-        This is a reddit clone
-        </div>
+        <>
+        <Posts numPosts={5} />
+        </>
      );
 }
 
